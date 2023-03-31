@@ -1,0 +1,452 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+}
+
+/* navbar start here */
+
+/* font import */
+
+@font-face {
+    font-family: MyraidPro;
+    src: url(fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+
+/* font import */
+
+
+
+.navbar i{
+    font-size: 30px;
+}
+
+.navbar-nav{
+    margin: 15px;
+}
+
+#main-menu ul li a{
+    color: #000000;
+    margin: 10px;
+}
+#main-menu ul li a:hover{
+    color: red;
+}
+/* navbar end here */
+
+
+
+
+/* first section start here */
+.first-section{
+    height: 800px;
+    opacity: 0.9;
+    background-image: url(home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;   
+}
+.first-section h1{
+    font-size: 5rem;
+    color: #deb37e;
+    font-family: Myraid Pro;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-part{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.main-part h5{
+    font-size: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 65px;
+    padding-top: 20px;
+}
+.main-part button{
+    width: 220px;
+    padding: 13px 22px;
+    background-color: #fefdfc;
+    text-transform: uppercase;
+    color: #776c64;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+}
+
+.main-part button:hover{
+    transition: .4s;
+    color: #deb37e;
+}
+.main-part p{
+    padding-top: 30px;
+    color: #000000;
+    padding-bottom: 100px;
+
+}
+/* first section end here */
+
+
+
+
+/* secound section start here */
+.secound-section{
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    cursor: pointer;
+    font-family: MyraidPro;
+}
+.secound-section img{
+    width: 100%;
+}
+.desc-part h1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-size: 62px;
+}
+
+.desc-part p{
+    font-size: 27px;
+    padding-bottom: 80px;
+    color: #7f7770;
+}
+.secound-section img{
+    height: 300px;
+}
+.secound-section .card-body{
+    padding: 50px 80px 20px 20px;
+    background-color:#7f7770;
+}
+.card-body h3{
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.card-body p{
+    color: white;
+    font-size: 20px;
+}
+.secound-section button{
+    font-size: 22px;
+    padding: 25px 80px;
+    width: 320px;
+    color: #ffffff;
+    font-weight: bolder;
+    background-color: #7f7770;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-sizing: border-box;
+}
+
+.secound-section .button-1{
+    display: inline;
+    margin: auto;
+    padding-top: 55px;
+    padding-bottom: 155px;
+}
+
+.button-1 button:hover{
+    background-color: #e2a355;
+    transition: .4s;
+    color: #000;
+}
+/* secound section end here */
+
+
+
+
+/* third section start here */
+.third-section{
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: MyraidPro;
+
+}
+.discount-part{
+    background-color: #7f7770;
+    padding-left: 60px;
+    padding-bottom: 70px;
+
+}
+.discount-part h1{
+    font-size: 58px;
+    text-transform: capitalize;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.discount-part p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.discount-part button{
+     width: 220px;
+     padding: 13px 22px;
+     background-color: #e2a355;
+     text-transform: uppercase;
+     color: #ffffff;
+     border-radius: 20px;
+     font-size: 24px;
+     font-weight: bold;
+     border: none;
+     letter-spacing: 2px;
+    }
+    
+/* third section end here */
+
+
+
+
+
+/* four section start here */
+.four-section{
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: MyraidPro;
+
+}
+.discount-part-2{
+    background-color: #deb37e;
+    padding-left: 60px;
+    padding-bottom: 70px;
+
+}
+.discount-part-2 h1{
+    font-size: 58px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.discount-part-2 p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.discount-part-2 button{
+        width: 220px;
+        padding: 13px 22px;
+        background-color: #e2a355;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-radius: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        border: none;
+        letter-spacing: 2px;
+
+    }
+    .discount-part-2 button:hover{
+        background-color: #e2a355;
+        color: white;
+    }
+/* four section end here */
+
+
+
+
+
+/* five section start here */
+
+.five-section{
+ background-color: #97908b;
+ height: 500px;
+ cursor: pointer;
+}
+
+.five-section h1{
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.five-section p{
+    color: #fefdfc;
+    font-size: 1.2rem;
+}
+
+/* five section end here */
+
+
+
+
+/* six section start here */
+.six-sextion{
+    cursor: pointer;
+    overflow: hidden;
+    font-family: MyraidPro;
+
+}
+.explore{
+    background: url(pic6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    height: 750px;
+    text-transform: uppercase;
+}
+
+.explore h1{
+    font-size: 4.9rem;
+    color: #deb37e;
+    margin-right: 100PX;
+    font-weight: 600;
+    padding-top: 170px;
+    margin-left: 70px;
+}
+.explore h2{
+   font-size: 5.1rem;
+   font-weight: 400;
+
+}
+/* six section end here */
+
+
+
+
+/* seven section start here */
+.seven-section{
+    padding-top: 145px;
+    padding-bottom: 200px;
+    cursor: pointer;
+    font-family: MyraidPro;
+
+}
+.seven-section h1{
+    font-size: 2rem;
+    color: #deb37e;
+    text-transform: capitalize;
+
+}
+.seven-section p{
+    font-size: 1.1rem;
+    line-height: 24px;
+}
+.logo-part img{
+    height: 20px;
+    margin: auto;
+    margin-top: 150px;
+}
+.logo-part p{
+    font-size: 25px;
+    color: #776c64;
+    padding-top: 45px;
+    margin-bottom: 50px;
+}
+.logo-part h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: #3f3f3f;
+    text-transform: capitalize;
+}
+/* seven section end here */
+
+
+
+/* eight section start here */
+.eight-section{
+    height: 600px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #deb37e;
+    cursor: pointer;
+    font-family: MyraidPro;
+
+}
+.eight-section button{
+    display: inline;
+}
+.eight-section h1{
+    padding-top: 150px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 75px;
+    color: white;
+}
+
+.eight-section p{
+    font-size: 25px;
+    color: #54524f;
+    padding-bottom: 40px;
+}
+
+.eight-section button{
+ width: 230px;
+ border: none;
+ border-radius: 50px;
+ background-color:#54524f;
+ color: white;
+ font-size: 25px;
+ letter-spacing: 1px;
+ padding: 10px 50px;
+ text-transform: uppercase;
+}
+.eight-section button:hover{
+    background-color: #99928d;
+    color: #ffffff;
+    transition: .5s;
+}
+/* eight section end here */
+
+
+
+
+/* contact section start here */
+.contact-section{
+    background-color: #7f7770;
+    padding: 150px 0px 95px 95px;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+}
+.contact-section h1{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.contact-section p{
+    text-transform: capitalize;
+    line-height: 10px;
+}
+.contact-section i{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+/* contact section end here */
+
+
+
+
+
+
+
+
+
